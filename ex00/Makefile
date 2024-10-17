@@ -6,11 +6,11 @@
 #    By: kbrener- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/09 16:51:58 by kbrener-          #+#    #+#              #
-#    Updated: 2024/10/17 10:16:11 by kbrener-         ###   ########.fr        #
+#    Updated: 2024/10/17 14:36:44 by kbrener-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = megaphone
+NAME = zombie
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 OBJ_DIR = obj/
