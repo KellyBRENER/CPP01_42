@@ -6,7 +6,7 @@
 /*   By: kbrener- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:37:31 by kbrener-          #+#    #+#             */
-/*   Updated: 2024/10/17 16:09:16 by kbrener-         ###   ########.fr       */
+/*   Updated: 2024/10/18 10:30:39 by kbrener-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,12 @@
 
 class	Weapon {
 	public :
-		Weapon(void);
 		Weapon(std::string name);
-		std::string	getType(void);
-		void	setType(std::string type);
+		std::string const	getType(void);
+		void		setType(std::string type);
 		~Weapon(void);
 	private :
-	std::string	type;
+		std::string	type;
 } ;
 
 #endif
