@@ -6,7 +6,7 @@
 /*   By: kbrener- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 11:13:45 by kbrener-          #+#    #+#             */
-/*   Updated: 2024/10/17 11:54:58 by kbrener-         ###   ########.fr       */
+/*   Updated: 2024/10/24 10:55:06 by kbrener-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,11 @@
 
 Zombie::Zombie(void) {
 	std::cout<<"Zombie constructor called"<<std::endl;
+}
+
+Zombie::Zombie(std::string name) {
+	std::cout<<"Zombie constructor called"<<std::endl;
+	this->name = name;
 }
 
 void	Zombie::announce(void) {

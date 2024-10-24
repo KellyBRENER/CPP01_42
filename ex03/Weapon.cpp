@@ -6,7 +6,7 @@
 /*   By: kbrener- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:41:43 by kbrener-          #+#    #+#             */
-/*   Updated: 2024/10/18 10:33:23 by kbrener-         ###   ########.fr       */
+/*   Updated: 2024/10/24 11:06:14 by kbrener-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ Weapon::Weapon(std::string name) {
 	this->type = name;
 }
 
-std::string const	Weapon::getType(void) {
+const std::string&	Weapon::getType(void) {
 	return (this->type);
 }
 

@@ -6,7 +6,7 @@
 /*   By: kbrener- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 11:07:30 by kbrener-          #+#    #+#             */
-/*   Updated: 2024/10/17 12:03:37 by kbrener-         ###   ########.fr       */
+/*   Updated: 2024/10/24 10:54:11 by kbrener-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 class	Zombie {
 	public :
 		Zombie(void);
+		Zombie(std::string name);
 		~Zombie(void);
 		void	announce(void);
 		void	set_name(std::string new_name);

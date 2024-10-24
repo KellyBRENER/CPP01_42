@@ -6,11 +6,11 @@
 #    By: kbrener- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/09 16:51:58 by kbrener-          #+#    #+#              #
-#    Updated: 2024/10/22 14:03:12 by kbrener-         ###   ########.fr        #
+#    Updated: 2024/10/24 11:16:25 by kbrener-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = harl
+NAME = harlFilter
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 OBJ_DIR = obj/
